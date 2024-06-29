@@ -218,3 +218,15 @@ section{
     color: var(--text-white);
     font-size: 1.6rem;
 }
+
+.header-scrolled {
+    position: fixed;
+    top: -0.4rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    z-index: 999;
+    transition: 0.3 all ease-in-out;
+}
