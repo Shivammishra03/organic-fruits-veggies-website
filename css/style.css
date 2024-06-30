@@ -182,6 +182,10 @@ section{
     width: 7.5rem;
     margin-top: -0.1rem;
 }
+.header .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
 .header .navbar-nav .nav-link {
     color: var(--text-white);
     text-transform: uppercase;
@@ -229,4 +233,35 @@ section{
     margin: auto;
     z-index: 999;
     transition: 0.3 all ease-in-out;
+}
+
+/* banner css */
+
+.banner_section {
+    background: url('../images/banner-slide/Banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.banner_section .carousel-item {
+    padding: 3rem 0;
+    height: 90vh;
+}
+.banner_section .carousel-caption {
+    top: 30%;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    text-align: left;
+    width: 100%;
+}
+.banner_section .carousel-caption h3 {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--dark-color);
+    display: inline;
+}
+.banner_section .carousel-caption p {
+    max-width: 40rem;
+    margin-bottom: 2rem;
 }
